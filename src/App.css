@@ -1,0 +1,32 @@
+.bg-main{
+    background-color: #f7f7f7;
+}
+.navbar-logo {
+    width: 150px; /* Adjust based on your design */
+}
+.btn-orange{
+    background-color: #fa843a !important;
+
+}
+.cover{
+    background-image: url('./assets/image/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card-orange{
+    background-color: #f6cc70 !important;
+}
+.text-blue{
+    color: #4545f6;
+}
+
+
+/* Add these CSS classes if w-lg-75 is not available in your Bootstrap */
+@media (min-width: 992px) {
+    .w-lg-75 {
+        width: 75% !important;
+    }
+}
