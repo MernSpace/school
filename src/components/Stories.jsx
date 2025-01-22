@@ -26,7 +26,7 @@ const Stories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-8 mt-4">
                         <div className="row row-cols-1 row-cols-md-2 g-4">
                             <div className="col">
                                 <div className="card h-100 position-relative shadow-lg">
