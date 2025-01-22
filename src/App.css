@@ -23,6 +23,10 @@
     color: #4545f6;
 }
 
+.date{
+    margin-bottom: -250px;
+}
+
 
 /* Add these CSS classes if w-lg-75 is not available in your Bootstrap */
 @media (min-width: 992px) {
