@@ -8,12 +8,12 @@ import right from '../assets/image/right.png'
 const Curriculum = () => {
     return (
         <div className='container-fluid cover'>
-            <div className='container text-center my-5'>
+            <div className='container text-center py-5'>
                 <h2>Standard Curriculum</h2>
                 <div className='row mt-5'>
                     <div className="col-md-4 mb-4">
-                        <div style={{backgroundColor: "#00B7FF19"}}
-                             className="card h-100 border-0 rounded-4 p-4 text-center shadow-sm hover:shadow-lg transition-all">
+                        <div  style={{ background: 'linear-gradient(to bottom, #e3f6fe 0%, #ffffff 100%)' }}
+                             className=" card h-100 border-0 rounded-4 p-4 text-center shadow-sm">
                             <div className="card-body d-flex flex-column">
                                 <div className={`rounded-circle mx-auto mb-4 p-4  bg-opacity-10`}
                                      style={{width: '220px', height: '220px',}}>
@@ -31,7 +31,7 @@ const Curriculum = () => {
                         </div>
                     </div>
                     <div className="col-md-4 mb-4">
-                        <div style={{backgroundColor: "rgba(243,212,147,0.65)"}}
+                        <div style={{ background: 'linear-gradient(to bottom, #fdf4df 0%, #ffffff 100%)' }}
                              className="card h-100 border-0  rounded-4 p-4 text-center shadow-sm hover:shadow-lg transition-all">
                             <div className="card-body d-flex flex-column">
                                 <div className={`rounded-circle mx-auto mb-4 p-4  bg-opacity-10`}
@@ -50,7 +50,7 @@ const Curriculum = () => {
                         </div>
                     </div>
                     <div className="col-md-4 mb-4">
-                        <div style={{backgroundColor: "#d8c0f8"}}
+                        <div style={{ background: 'linear-gradient(to bottom, #f1e7ff 0%, #ffffff 100%)' }}
                              className="card h-100 border-0 rounded-4 p-4 text-center shadow-sm hover:shadow-lg transition-all">
                             <div className="card-body d-flex flex-column">
                                 <div className={`rounded-circle mx-auto mb-4 p-4  bg-opacity-10`}

@@ -1,7 +1,10 @@
 import React from 'react';
 import BannarImage from '../assets/image/Group 4.png'
+import Button from "react-bootstrap/Button";
+import PopupModal from './PopupModal.jsx'
 
 const BannerSection = () => {
+    const [modalShow, setModalShow] = React.useState(false);
     return (
         <section className="py-5 bg-main">
             <div className="container">
@@ -27,9 +30,13 @@ const BannerSection = () => {
                             to make their unique contribution in a diverse and
                             dynamic world
                         </p>
-                        <button className="btn btn-orange text-white px-5 py-3 fw-medium">
+                        <Button variant="btn btn-orange text-white px-5 py-3 fw-medium" onClick={() => setModalShow(true)}>
                             Enroll Now
-                        </button>
+                        </Button>
+                        <PopupModal
+                            show={modalShow}
+                            onHide={() => setModalShow(false)}
+                        />
                     </div>
                 </div>
             </div>

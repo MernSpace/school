@@ -5,10 +5,10 @@ const Stories = () => {
 
     return (
         <div className='container-fluid cover'>
-            <div className="container my-5">
+            <div className="container py-5">
                 <h2 className="text-center mb-4">Our Stories</h2>
                 <div className="row mt-5">
-                    <div className="col-md-4">
+                    <div className="col-md-4 mb-4">
                         <div className="card shadow-lg">
                             <div className="card-img-container position-relative">
                                 <img src={image1} className="card-img-top" alt="Card image"/>
@@ -26,7 +26,7 @@ const Stories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-8 mt-4">
+                    <div className="col-md-8">
                         <div className="row row-cols-1 row-cols-md-2 g-4">
                             <div className="col">
                                 <div className="card h-100 position-relative shadow-lg">

@@ -4,8 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../assets/image/Group 2.png'
+import PopupModal from "./PopupModal.jsx";
 
 function NavBar() {
+
+    const [modalShow, setModalShow] = React.useState(false);
+
     return (
         <Navbar expand="lg" className="bg-main shadow-sm">
             <Container>
@@ -33,9 +37,13 @@ function NavBar() {
 
                     {/* Contact Button - Shows inline on desktop, stacked on mobile */}
                     <div className="d-flex">
-                        <button className='btn-orange btn text-white px-5 fw-medium' href="/contact">
-                            Contact
-                        </button>
+                        <Button variant="btn btn-orange text-white px-5 py-3 fw-medium" onClick={() => setModalShow(true)}>
+                            Enroll Now
+                        </Button>
+                        <PopupModal
+                            show={modalShow}
+                            onHide={() => setModalShow(false)}
+                        />
                     </div>
                 </Navbar.Collapse>
             </Container>

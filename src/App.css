@@ -13,6 +13,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background: linear-gradient(to bottom, #ffffff, #f9dfb0);
+
 
 }
 
@@ -25,6 +27,10 @@
 
 .date{
     margin-bottom: -250px;
+}
+
+.bg-gradient{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) !important;
 }
 
 
